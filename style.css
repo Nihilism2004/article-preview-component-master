@@ -1,0 +1,86 @@
+@font-face
+{
+    font-family:"regular" ;
+    src: url(font/WorkSans-Regular.ttf);
+}
+body
+{
+    background-color: rgb(237, 242 ,248);
+
+}
+#d1
+{
+    background-color: #fff;    
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 860px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#img1
+{
+    width: 400px;
+    border-radius: 10px 0px 0px 10px;
+    clip-path: inset(0 70px 0 0);
+
+}
+h1
+{
+    font-family: 'regular';
+    font-size: x-large;
+    font-weight: 600;
+}
+p
+{
+    font-family: 'regular';
+}
+#d4
+{
+    display: flex;
+}
+#img2
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+#d6
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'regular';
+    margin-top: 30px;
+    
+}
+button
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(237, 242 ,248);;
+}
+#d5
+{
+    
+    display: none;
+    background-color: rgb(73, 85, 107);
+    width: 80px;
+    height: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-left: 360px;
+    
+   
+}
+#p2
+{
+    margin-left: 40px;
+}
